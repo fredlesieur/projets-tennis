@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Tennis Club De Sèvres</title>
+    <!--lien Css-->
+    <link rel="stylesheet" href="./css/accueil.css">
+    <!--lien Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Scripts Bootstrap et jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <!-- bouton de reservation et logo -->
+        <!-- Modifier la ligne 29 -->
+        <div class="navbar navbar-expand-lg justify-content-center custom-navbar">
+            <div class="navbar-logo">
+                <a href="#"><img class="logo-club mx-auto mt-3 p-2" src="./images/logo club.png" alt="Logo du Tennis Club de Sèvres"
+                        width="250"></a>
+            </div>
+            <div class="navbar-button">
+                <button class="button mx-auto p-2 mt-3">RESERVER ADHERENT</button>
+            </div>
+        </div>
+
+
+        <!-- Début de la barre de navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark justify-content-center mb-5">
+            <!-- menu burger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+                <!-- Menu principal -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="menu1" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                JOUER
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menu1">
+                                <a class="dropdown-item" href="#">Devenir Membre</a>
+                                <a class="dropdown-item" href="#">Location Horaire</a>
+                            </div>
+                        </li>
+                        <!--onglet 2-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="menu2" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                INSTALLATIONS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menu2">
+                                <a class="dropdown-item" href="#">Les Terrains</a>
+                                <a class="dropdown-item" href="#">Les Clubs Houses</a>
+                                <a class="dropdown-item" href="#">Les Murs d'entraînements</a>
+                            </div>
+                        </li>
+                       <!--onglet 3-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="menu3" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                TARIFS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menu3">
+                                <a class="dropdown-item" href="#">Tarifs Formations</a>
+                                <a class="dropdown-item" href="#">Tarifs Cotisations</a>
+                                <a class="dropdown-item" href="#">Tarifs Invitations</a>
+                                <a class="dropdown-item" href="#">Tarifs Location Horaire</a>
+                            </div>
+                        </li>
+                       <!--onglet 4-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="menu4" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ENSEIGNEMENTS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menu4">
+                                <a class="dropdown-item" href="#">Baby et Mini tennis (3-5 ans)</a>
+                                <a class="dropdown-item" href="#">Ecole de Tennis (6-17 ans)</a>
+                                <a class="dropdown-item" href="#">Enseignement Adultes</a>
+                                <a class="dropdown-item" href="#">Stages Jeunes et Adultes</a>
+                                <a class="dropdown-item" href="#">Tarifs Cotisations</a>
+                            </div>
+                        </li>
+                        <!--onglet 5-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="menu5" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                LES RESSOURCES HUMAINES
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menu5">
+                                <a class="dropdown-item" href="#">Le comité de direction</a>
+                                <a class="dropdown-item" href="#">L'équipe pédagogique</a>
+                            </div>
+                        </li>
+                       <!--onglet 6-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="menu6" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                LES EQUIPES
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menu6">
+                                <a class="dropdown-item" href="#">Equipes Jeunes</a>
+                                <a class="dropdown-item" href="#">Equipes Sénior</a>
+                                <a class="dropdown-item" href="#">Equipes vétérans (+35 ans à +65 ans)</a>
+                            </div>
+                        </li>
+                        <!--onglet 7-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="menu7" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                INFORMATIONS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="menu7">
+                                <a class="dropdown-item" href="#">Actualités et animations</a>
+                                <a class="dropdown-item" href="#">Contact</a>
+                                <a class="dropdown-item" href="#">Horaire secrétariat</a>
+                                <a class="dropdown-item" href="#">Accès</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin de la barre de navigation -->
+    </header>
+    <!-- Fin du header -->
+    <!--debut du main-->
+    <main class="main-content flux">
+        <!-- bloc 1 présentation du club-->
+            <section class="container-pics-actuality mb-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Carrousel  1-->
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/court-2-3.jpg" class="d-block w-100"
+                                        alt="Vue d'un des courts de tennis">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/court-1.jpg" class="d-block w-100"
+                                        alt="Image du court couvert 1 sur le site de Wolfenbuttel">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/mare-adam.jpg" class="d-block w-100"
+                                        alt="image des courts extérieurs 5 et 6  du site de la mare Adam">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/court-A-B-C.jpg" class="d-block w-100"
+                                        alt="image des courts extérieurs A,B et C de la mare Adam">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/mare-adam-satellite.png" class="d-block w-100"
+                                        alt="image des courts extérieurs prise de satelite de la mare Adam">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/club-house-w.jpg" class="d-block w-100"
+                                        alt="vu du jardin japonais du site Wolfenbuttel">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/club-house-interieur.jpg" class="d-block w-100"
+                                        alt="vu de l'intérieur du club house du site Wolfenbuttel">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/moutons.jpg" class="d-block w-100"
+                                        alt="vu des moutons qui entoure les terrains couverts su site de Wolfenbuttel">
+                                </div>
+                            </div>
+                            <!-- Boutons de contrôle du carrousel 1 -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                   
+                    <!-- Titre et présentation du carroussel -->
+                    <div class="text-center ">
+                        <h1> Le Tennis Club Sèvres</h1>
+                        <p>Vous cherchez un club familial mais plutôt dynamique, vous avez également le goût pour la
+                            compétition, et vous voulez également vous améliorer !
+                            Rejoignez le Tennis Club De Sèvres!
+                            L'équipe pédagogique vous accueillera à bras ouverts et saura vous proposer ce qui vous
+                            conviendra en fonction de votre profil.
+                            Le tennis club de Sèvres, c'est d'abord un véritable club sportif : des installations de
+                            qualité, une recherche de partenaires, des écoles de tennis encadrées par des moniteurs
+                            diplômés…</p>
+                    </div>
+            </div>
+            </div>
+            </div>
+        </section>
+<!-- bloc 2 Animations et Actualités -->
+        <section class="container-actuality">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center mt-5 mt-lg-0">
+                    <!-- bloc texte Actualités -->
+                    <div class="text-center ">
+                        <h2> Actualités  et Animations</h2>
+                        <br>
+                        <p>Vous trouverez des photos de ce qu'il se passe dans le club et des informations à ne pas rater</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- photo des actualités et animations-->
+                    <!--caroussel 2 animations-->
+                    <div id="carouselExampleSlidesOnly2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/a-wimbledon.jpg" class="d-block w-100"
+                                    alt="affiche d'une animation sur le thème de Wimbledon">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/ag.jpg" class="d-block w-100"
+                                    alt="affiche indiquant une assemblée générale">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/fete-ect-pirate.jpg" class="d-block w-100"
+                                    alt="affiche annoncant une fete de l'école de tennis et le thème est pirates des caraibes">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/renouvellement.png" class="d-block w-100"
+                                    alt="affiche annoncant la période de réinscription aux formations">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/tournoi.jpg" class="d-block w-100"
+                                    alt="affiche annoncant un tournoi oragnisé par le club">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/STAGE.jpg" class="d-block w-100"
+                                    alt="image des enfants au stage à la mare adam">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/moutons.jpg" class="d-block w-100"
+                                    alt="animation autour des moutons qui entoure les terrains couverts su site de Wolfenbuttel">
+                            </div>
+                        </div>
+                        <!-- Boutons de contrôle du carrousel 2-->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--bloc 3 presentation de l'équipe pédagogique-->
+        <section class="container-pics-team mt-5 mb-5">
+            <div class="row align-items-center">
+            <div class="col-lg-5">
+                <!--caroussel 3 photo equipe pédagogique-->
+                <div id="carouselExampleSlidesOnly3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/alex.jpg" class="d-block w-100" alt="Photo D'alexandre Marie">
+                            <div class="carousel-caption">
+                                <h5 class="text-black">Alexandre MARIE</h5>
+                                <p class="text-black">Responsable : <br>Animation,stages,adultes</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/marine.jpg" class="d-block w-100" alt="Photo de Marine Feredj">
+                            <div class="carousel-caption">
+                                <h5>Marine FEREDJ</h5>
+                                <p>Directrice Sportive</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Boutons de contrôle du carrousel 3 -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly3"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly3"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+            <!--Bloc texte-->
+            <div class="col-lg-2 text-center justify-content-center">
+                <h2>Équipe Pédagogique</h2>
+            </div>
+            <div class="col-lg-5">
+                  <!--caroussel 4 photo de l'équipe pédagogique bis-->
+                <div id="carouselExampleSlidesOnly4" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/antho.jpg" class="d-block w-100" alt="Photo d 'Anthony Moris">
+                            <div class="carousel-caption">
+                                <h5 class="text-black">Anthony MORIS</h5>
+                                <p class="text-black" >Responsable : <br> Compétition et centre d'entrainement</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/thomas.jpg" class="d-block w-100" alt="Photo de Thomas Risse">
+                            <div class="carousel-caption">
+                                <h5>Thomas RISSE</h5>
+                                <p>Responsable adjoint : <br> du centre d'entrainement</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Boutons de contrôle du carrousel 4 -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly4"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly4"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </div>
+        </section>
+<!--bloc 4 Nos partenaires-->
+        <section class="container-partner mt-5">
+            <h2 class="text-center">NOS PARTENAIRES</h2>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="d-flex flex-wrap justify-content-center ">
+                        <!-- les liens de nos partenaires représentés par des logos -->
+                       <div class="d-flex align-items-center "> <a href="https://www.fft.fr/" target="_blank">
+                            <img class="logo-partner" src="./images/logo_fft.jpg" alt="Logo de la Fédération Française de Tennis">
+                        </a>
+                        <a href="https://www.comite92tennis.fr/" target="_blank">
+                            <img class="logo-partner" src="./images/logo-hds.jpg" alt="Logo du Comité des Hauts de Seine">
+                        </a>
+                        <a href="https://www.tecnifibre.com/" target="_blank" >
+                            <img class="logo-partner" src="./images/logo-tf.jpg" alt="Logo de notre sponsor Technifibre">
+                        </a>
+                        <a href="https://www.mojjo.io/" target="_blank">
+                            <img class="logo-partner" src="./images/logo-mojjo.jpg" alt="Logo de Mojjo société qui nous permet d'avoir un terrain connecté pour se voir jouer">
+                        </a>
+                        <a href="https://www.sevres.fr/" target="_blank">
+                            <img class="logo-partner" src="./images/logo-vs.jpg" alt="Logo de la ville de Sèvres">
+                        </a>
+                        <a href="https://www.tennispro.eu/store?name=Boulogne&id=84"target="_blank" >
+                            <img class="logo-partner" src="./images/logo-tp.jpg" alt="Logo de notre magasin partenaire Tennis Pro Boulogne">
+                        </a>
+                        <a href="https://www.adsltennis.fr/5.08.02/ics.php" target="_blank">
+                            <img class="logo-partner" src="./images/adsl-tennis.jpg" alt="Logo de l'application de réservation et de l'espace adhérent">
+                        </a>
+                        <a href="https://ctennis.fr/"target="_blank" >
+                            <img class="logo-partner" src="./images/c-tennis.png" alt="Logo de l'application de communication">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--fin du main-->
+    <!--début du footer-->
+    <footer class="navbar text-white text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 Tennis Club De Sèvres</p>
+                </div>
+                <div class="col-md-5 ps-4">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#jouer" class="text-white">JOUER</a></li>
+                        <li class="list-inline-item"><a href="#installations" class="text-white">INSTALLATIONS</a></li>
+                        <li class="list-inline-item"><a href="#tarifs" class="text-white">TARIFS</a></li>
+                        <li class="list-inline-item"><a href="#enseignements" class="text-white">ENSEIGNEMENTS</a></li>
+                        <li class="list-inline-item"><a href="#equipes" class="text-white">LES EQUIPES</a></li>
+                        <li class="list-inline-item"><a href="#informations" class="text-white">INFORMATIONS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/tcsevres/?ref=embed_page" target="_blank" class="text-white"><i class="bi bi-facebook "></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--fin du footer-->
+    <!-- Le script JavaScript pour activer les carrousels -->
+    <script>
+        var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleSlidesOnly'), {interval: 5000 });
+    </script>
+<script>
+    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleSlidesOnly2'), {interval: 5000 });
+</script>
+</body>
+<!-- Fin du body -->
+</html>

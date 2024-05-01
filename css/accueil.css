@@ -1,0 +1,109 @@
+/* Réinitialisation CSS */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+dl, dd, ol, ul, figure,
+hr, fieldset, legend, button, input, textarea, select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* création d'un flux sur le main */
+.flux {
+    max-width: 100%; /* Utilise la largeur maximale disponible */
+    margin: 0 auto; /* Centre le flux horizontalement */
+    padding: 0 40px; /* Ajoute un peu d'espace sur les côtés */
+    box-sizing: border-box; /* Assure que la largeur inclut le padding */
+}
+
+/* couleur pour le background de ma page d'accueil et le font family */
+body {
+    background: linear-gradient(to right, #8e87f3, #8dd6df);
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+    font-family: Georgia, 'Times New Roman', Times, serif, serif;
+}
+
+/* ma barre de navigation customisé en violet et le texte en blanc */
+.navbar {
+    background-image:url("./tcsevres/images/club-house-w.jpg")
+}
+
+.navbar-toggler {
+    position: relative;
+    z-index: 1; 
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin: 10px;
+    font-weight: bold; /* Correction de la valeur erronée */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #8e87f3; /* Couleur ajustée pour le survol */
+}
+
+/* style du bouton RESERVER */
+.button {
+    background: linear-gradient(to right, #8e87f3, #8dd6df);
+    color: rgb(34, 31, 75);
+    font-weight: 700;
+    border-radius: 24px;
+}
+
+.button:hover {
+    color: white;
+}
+
+/* style du main */
+.main-content {
+    padding-top: 1rem;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid white;
+    border-radius: 40%;
+}
+
+.logo-partner {
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    border-radius: 30%;
+}
+
+/* Corrections pour les médias queries */
+@media (max-width: 1024px) and (min-height: 600px), 
+(max-width: 1024px) and (min-height: 1366px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+}
+
+/* Ajout de la règle pour le bouton "RESERVER ADHERENT" */
+.center-button.mx-auto {
+    display: block;
+    margin: 1rem auto;
+    background-color: rgb(34, 31, 75);
+    color: white;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.center-button.mx-auto:hover {
+    background-color: #8e87f3;
+}
+
+/* Style du logo du club */
+.logo-club {
+    width: 250px;
+    height: auto;
+}

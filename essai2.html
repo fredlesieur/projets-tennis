@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" href="essai.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 order-md-8 order-2">
+      <div class="h-100 bg-light d-flex flex-column"> <!-- Modification ici -->
+          <!-- logo -->
+        <a class="navbar-brand flex-grow-1" href="#"><img src="./images/logo-sevres2.svg"
+            alt="Logo du Tennis Club de Sèvres" width="100"></a> <!-- Modification ici -->
+      </div>
+    </div>
+    <div class="col-md-4 order-md-2 order-1">
+      <div class="row">
+        <div class="col">
+          <div class="h-md-50 h-100 bg-secondary">
+            <!-- boutons reserver-->
+            <button class="top-nav">RESERVER</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="w-100 bg-info d-flex justify-content-between"> <!-- Modification ici -->
+            <!--MENU -->
+            <ul class="navbar-nav">
+                <!-- Ligne 1 -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu1" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        JOUER
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu1">
+                        <a class="dropdown-item" href="#">Devenir Membre</a>
+                        <a class="dropdown-item" href="#">Location Horaire</a>
+                    </div>
+                </li>
+                <!-- Ligne 2 -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu2" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        INSTALLATIONS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu2">
+                        <a class="dropdown-item" href="#">Les Terrains</a>
+                        <a class="dropdown-item" href="#">Les Clubs Houses</a>
+                        <a class="dropdown-item" href="#">Les Murs d'entraînements</a>
+                    </div>
+                </li>
+                <!-- Ligne 3 -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu3" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TARIFS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu3">
+                        <a class="dropdown-item" href="#">Tarifs Formations</a>
+                        <a class="dropdown-item" href="#">Tarifs Cotisations</a>
+                        <a class="dropdown-item" href="#">Tarifs Invitations</a>
+                        <a class="dropdown-item" href="#">Tarifs Location Horaire</a>
+                    </div>
+                </li>
+                <!-- Ligne 4 -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu4" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ENSEIGNEMENTS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu4">
+                        <a class="dropdown-item" href="#">Baby et Mini tennis (3-5 ans)</a>
+                        <a class="dropdown-item" href="#">Ecole de Tennis (6-17 ans)</a>
+                        <a class="dropdown-item" href="#">Enseignement Adultes</a>
+                        <a class="dropdown-item" href="#">Stages Jeunes et Adultes</a>
+                        <a class="dropdown-item" href="#">Tarifs Cotisations</a>
+                    </div>
+                </li>
+                <!-- Ligne 5 -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu5" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        LES RESSOURCES HUMAINES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu5">
+                        <a class="dropdown-item" href="#">Le comité de direction</a>
+                        <a class="dropdown-item" href="#">L'équipe pédagogique</a>
+                    </div>
+                </li>
+                <!-- Ligne 6 -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu6" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        LES EQUIPES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu6">
+                        <a class="dropdown-item" href="#">Equipes Jeunes</a>
+                        <a class="dropdown-item" href="#">Equipes Sénior</a>
+                        <a class="dropdown-item" href="#">Equipes vétérans (+35 ans à +65 ans)</a>
+                    </div>
+                </li>
+                <!-- Ligne 7 -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu7" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        INFORMATIONS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="menu7">
+                        <a class="dropdown-item" href="#">Contact</a>
+                        <a class="dropdown-item" href="#">Horaire secrétariat</a>
+                        <a class="dropdown-item" href="#">Accès</a>
+                    </div>
+                </li>
+            </ul>    
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

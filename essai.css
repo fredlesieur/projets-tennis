@@ -1,0 +1,20 @@
+/* Essai de CSS */
+.logo-container {
+  height: 100%;
+}
+
+.logo-container img {
+  height: 100%;
+  width: auto;
+}
+
+.menu-container ul.navbar-nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.logo-container img {
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+}
